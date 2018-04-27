@@ -26,7 +26,7 @@ RUN apt-get update && \
 	apt-get -y install nginx-full && \
 	apt-get -y install build-essential python-dev libxml2-dev python-pip python-imaging unzip wget supervisor && \
 	pip install -U setuptools && \
-	pip install -U pip && \
+	#pip install -U pip && \
 	pip install -U gdata && \
 	pip install -U uwsgi && \
 	apt-get clean && \
